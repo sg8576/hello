@@ -13,7 +13,7 @@ table, th, td {
 table {
   border-collapse: separate;
 }
-.button {
+button {
   border: none;
   color: white;
   padding: 15px 32px;
