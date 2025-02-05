@@ -6,7 +6,13 @@
     <title>Hello</title>
     <script>
         function hello(){
-            document.querySelector('h1').innerHTML = 'GoodBye!;'
+            if(document.querySelector('h1').innerHTML === 'Hello!'){
+                document.querySelector('h1').innerHTML = 'GoodBye!;'
+            }
+            else{
+                document.querySelector('h1').innerHTML = 'Hello!';
+            }
+            
         }
         alert("Hello, World!");
         console.log("Hello, World!");
